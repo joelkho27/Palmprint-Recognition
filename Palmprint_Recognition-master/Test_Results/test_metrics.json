@@ -1,0 +1,20 @@
+{
+    "metrics": {
+        "GAR": 50.66666666666667,
+        "FRR": 49.33333333333333,
+        "FAR": 0.44943820224719105,
+        "TRR": 99.5505617977528,
+        "Accuracy": 87.22689075630252,
+        "total_genuine_tests": 150,
+        "genuine_accepted": 76,
+        "genuine_rejected": 74,
+        "total_impostor_tests": 445,
+        "impostor_accepted": 2,
+        "impostor_rejected": 443
+    },
+    "configuration": {
+        "ratio_threshold": 0.75,
+        "match_threshold": 3
+    },
+    "timestamp": "2025-11-05 22:30:43"
+}

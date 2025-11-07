@@ -1,0 +1,42 @@
+{
+    "test_date": "2025-11-06 13:07:55",
+    "sift_results": {
+        "method": "SIFT + 6-Layer Validation",
+        "dataset": "Tongji Palmprint Database",
+        "num_people_tested": 50,
+        "total_tests": 595,
+        "genuine_tests": 150,
+        "impostor_tests": 445,
+        "accuracy": 87.23,
+        "gar": 50.67,
+        "far": 0.45,
+        "frr": 49.33,
+        "trr": 99.55,
+        "eer": null,
+        "training_required": false,
+        "training_time": "0 hours (no training needed)",
+        "inference_time_per_image": "~0.5-1.0 seconds",
+        "model_size": "N/A (algorithm-based)",
+        "features_detected_avg": "200-1200 keypoints"
+    },
+    "cnn_results": {
+        "method": "ResNet-18 Contrastive Learning",
+        "dataset": "Tongji Palmprint Database",
+        "num_people_tested": 50,
+        "total_tests": 595,
+        "genuine_tests": 150,
+        "impostor_tests": 445,
+        "accuracy": 91.68,
+        "gar": 79.42,
+        "far": 1.21,
+        "frr": 20.58,
+        "trr": 98.79,
+        "eer": null,
+        "training_required": true,
+        "training_time": "100 epochs (unlabeled palm images)",
+        "inference_time_per_image": "~0.12 seconds with GPU",
+        "model_size": "~45 MB (ResNet-18)",
+        "embedding_dimension": 256
+    },
+    "notes": "CNN results filled in after external testing on same dataset"
+}
